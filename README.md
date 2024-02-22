@@ -119,6 +119,7 @@ This is the code for IRIS-LAHNET. Iris-LAHNet is composed of a stem, a basic bac
 + pandas = 1.3.5
 + mmcv = 1.7.0
 + torchvision = 0.14.0+cu117
+
 Note the version number is for reference only, you can choose the version number that is suitable for your system.
 
 ## Quick Start
@@ -130,7 +131,7 @@ Iirs-LAHNet trains the model on different datasets. All the model weights are sa
 
  Let's take training or testing on MICHE as an example. 
 ### Training
-you can run training as following:
+You can run training as following:
 
 ```
 CUDA_VISIBLE_DEVICES=gpuid python train.py
@@ -138,7 +139,7 @@ CUDA_VISIBLE_DEVICES=gpuid python train.py
 Note: You need to change the associated path in `train.py` to your own path. The trained model is saved in the appropriate `./~/checkpoints/` folder in the `./LAHNet/experiments/` folder. Of course, you can also change the location and name of the save.
 
 ### Test
-you can run testing as following:
+You can run testing as following:
 
 ```
 CUDA_VISIBLE_DEVICES=gpuid python test.py
