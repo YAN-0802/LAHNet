@@ -1,6 +1,6 @@
 # Iris-LAHNet: A Lightweight Attention-guided High-resolution Network for Iris Segmentation and Localization
 ## Introduction
-This is the code for [Iris-LAHNet](). Iris-LAHNet is composed of a stem, a basic backbone, Pyramid Dilated Convolution (PDC) blocks, Cascaded Attention-guided Feature Fusion Module (C-AGFM), and auxiliary heads. The basic backbone is a tiny high-resolution network. The introduction of PDC blocks and C-AGFM helps to extract multi-scale features from multi-resolution images and reduce noise. In addition, we introduce three auxiliary heads with edge heatmaps, which output auxiliary loss to help model training and enhance attention to single pixels of the edge. It helps to compensate for the neglect of localization tasks during multi-task training. Experiments on four datasets show that our model achieves the lightest while ensuring segmentation and localization results.
+This is the code for [Iris-LAHNet](https://link.springer.com/article/10.1007/s00530-024-01280-5). Iris-LAHNet is composed of a stem, a basic backbone, Pyramid Dilated Convolution (PDC) blocks, Cascaded Attention-guided Feature Fusion Module (C-AGFM), and auxiliary heads. The basic backbone is a tiny high-resolution network. The introduction of PDC blocks and C-AGFM helps to extract multi-scale features from multi-resolution images and reduce noise. In addition, we introduce three auxiliary heads with edge heatmaps, which output auxiliary loss to help model training and enhance attention to single pixels of the edge. It helps to compensate for the neglect of localization tasks during multi-task training. Experiments on four datasets show that our model achieves the lightest while ensuring segmentation and localization results.
 
 ![pic1](https://github.com/YAN-0802/LAHNet/blob/main/pics/LAHNet.jpg)
 
@@ -162,6 +162,7 @@ The research is supported by “ the Fundamental Research Funds for the Central 
 ## Citation
 If you use our code or models in your research, please cite with:
 ```
+Yan, Y., Wang, Q., Zhu, H. et al. Iris-LAHNet: a lightweight attention-guided high-resolution network for iris segmentation and localization. *Multimedia Systems* **30**, 85 (2024). https://doi.org/10.1007/s00530-024-01280-5
 ```
 
 If you have any questions, please contact us by email.
