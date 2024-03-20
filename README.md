@@ -162,7 +162,7 @@ The research is supported by “ the Fundamental Research Funds for the Central 
 ## Citation
 If you use our code or models in your research, please cite with:
 ```
-Yan, Y., Wang, Q., Zhu, H. et al. Iris-LAHNet: a lightweight attention-guided high-resolution network for iris segmentation and localization. *Multimedia Systems* **30**, 85 (2024). https://doi.org/10.1007/s00530-024-01280-5
+Yan, Y., Wang, Q., Zhu, H. et al. Iris-LAHNet: a lightweight attention-guided high-resolution network for iris segmentation and localization. Multimedia Systems 30, 85 (2024). https://doi.org/10.1007/s00530-024-01280-5
 ```
 
 If you have any questions, please contact us by email.
